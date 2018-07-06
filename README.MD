@@ -22,3 +22,10 @@ A Tensorflow implementation for ["Recurrent Attention Network on Memory for Aspe
 
 |--- README.md
 ```
+
+## Results
+
+| Dataset    | Accuracy |
+| ---------- | -------- |
+| Laptop     | 74.138   |
+| Restaurant | 80.000   |
