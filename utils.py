@@ -153,7 +153,7 @@ def load_word_embeddings(fname, embedding_dim, word2id):
     with open(fname, 'rb') as f:
         for line in f:
             line = line.decode('utf-8')
-            content = line.strip().split()
+            content = line.strip().split(' ')
             if content[0] in word2id:
                 word2vec[word2id[content[0]]] = np.array(list(map(float, content[1:])))
                 oov = oov - 1
